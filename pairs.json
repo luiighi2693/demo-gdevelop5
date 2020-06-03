@@ -8,12 +8,13 @@
   },
   "properties": {
     "adMobAppId": "",
+    "adaptGameResolutionAtRuntime": false,
     "folderProject": false,
     "linuxExecutableFilename": "",
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "/home/matthias/Programme/GD_MyFork/GDevelop/newIDE/app/resources/examples/pairs/pairs.json",
+    "projectFile": "C:\\Users\\luis\\Documents\\GDevelop projects\\My project\\pairs.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
@@ -354,6 +355,10 @@
         {
           "name": "game_state",
           "value": "player_turn"
+        },
+        {
+          "name": "sample_commit_01",
+          "value": "0"
         }
       ],
       "instances": [
@@ -953,6 +958,21 @@
           "x": -32,
           "y": -32,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "pruebaCommitOne",
+          "width": 0,
+          "x": 608,
+          "y": 160,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1597,7 +1617,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.09,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -1955,6 +1975,25 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "pruebaCommitOne",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "prueba commit 01",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
